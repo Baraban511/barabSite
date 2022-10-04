@@ -1,0 +1,62 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
+#home {
+width: 25%;
+float: left;
+margin: 5px;
+}
+#page {
+background-color: #FFFFFF;
+}
+#centre {
+margin: 20px;
+background-color: rgb(88 98 242);
+border-radius: 20px;
+}
+.discord {
+size: 30% ;
+}
+
+footer {
+background-color: grey;  
+}
+
+
+html, #page {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  text-align: center;
+}
+#menu {
+  background-color: #37E7AC;
+  width: 100%;
+  line-height: 35px;
+  position: sticky;
+  top: 0;
+}
+
+.lien {
+  color: rgb(69, 245, 195);
+}
+
+
+#contenu {
+  font-size: 35px;
+}
+
+button {
+  position: center;
+}
+
+.lien:hover {
+  color: #3cffc8 ;
+}
+
+#menu >a:visited
+{
+  color: blue
+}
+.grand {
+  font-size: 250%;
+}
