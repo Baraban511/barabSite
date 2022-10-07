@@ -12,22 +12,68 @@
 </head>
 
 <body>
-  <table id="page">
-    <tr id="menu">
-      <td>
-        <p id="plan" class="nomal"> Menu :</p>
-        <div class="column">
-          <a href="../index.html"><i class="bi bi-house"></i></a><br>
-          <button class="button is-info is-large is-outlined" onclick="window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=911932073068089405&permissions=8&scope=bot%20applications.commands'"><i class="bi bi-discord"></i>Inviter BaraBot</button>
-        </div>
-        <div class="column">
-          <a href="commande.html">Découvrir ce que BaraBot peut faire</a> <br>
-        </div>
-      </td>
-    </tr>
 
-    <tr id="contenu">
-      <td>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="./index.html">
+        <img src="./img/barabotlogo.jpeg" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="./index.html">
+          <i class="bi bi-house"></i>
+        </a>
+
+        <a class="navbar-item" href="./commande.html">
+          Commandes
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Plus
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Signaler un problème
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary"
+              href="https://discord.com/api/oauth2/authorize?client_id=911932073068089405&permissions=8&scope=bot%20applications.commands">
+              <strong><i class="bi bi-discord"></i>Inviter BaraBot</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="columns">
+    <div class="column is-one-quarter">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
@@ -46,7 +92,7 @@
                 <p class="subtitle is-6">@barab</p>
               </div>
             </div>
-        
+
             <div class="content">
               L'incroyable codeur fou !<a>@bulmaio</a>.
               <a href="#">#css</a> <a href="#">#responsive</a>
@@ -55,13 +101,18 @@
             </div>
           </div>
         </div>
-        <progress class="progress is-small is-primary" max="100">15%</progress>
-        <!--A remplir avec le contenue de page-->
-      </td>
-    </tr>
-  </table>
-  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i class="bi bi-discord"></i>Inviter BaraBot</button>
-    <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a></footer>
+      </div>
+
+    <div class="column">Page...</div>
+  </div>
+
+
+  <!--A remplir avec le contenue de page-->
+
+  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
+        class="bi bi-discord"></i>Inviter BaraBot</button>
+    <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
+  </footer>
 </body>
 
 </html>
