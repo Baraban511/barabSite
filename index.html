@@ -16,7 +16,7 @@
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="./index.html">
-        <img src="./img/barablogo.jpg" width="112" height="28">
+        <img src="./img/barablogo.jpg" width="65,25" height="28">
       </a>
 
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -62,10 +62,7 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-primary"
-              href="https://discord.com/api/oauth2/authorize?client_id=911932073068089405&permissions=8&scope=bot%20applications.commands">
-              <strong>Découvrir BaraBot</strong>
-            </a>
+            <a class="button is-primary" href="./barabot/index.html">Découvrir BaraBot</a>
           </div>
         </div>
       </div>
@@ -75,7 +72,7 @@
 
 
   <div class="columns">
-    
+
     <div class="column is-one-quarter is-clipped">
       <div class="card">
         <div class="card-image">
@@ -87,7 +84,7 @@
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="./img/barabhead.jpeg" alt="Tête barab">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Tête barab">
               </figure>
             </div>
             <div class="media-content">
@@ -105,8 +102,9 @@
         </div>
         <footer class="card-footer is-size-4">
           <a href="https://www.reddit.com/user/baraban511" class="card-footer-item"><i class="bi bi-reddit"></i></a>
-          <a href="#" class="card-footer-item">Edit</a>
-          <a href="#" class="card-footer-item">Delete</a>
+          <a href="https://github.com/Baraban511" class="card-footer-item"><i class="bi bi-github"></i></a>
+          <a class="js-modal-trigger card-footer-item" data-target="modal-link"><i
+              class="bi bi-box-arrow-up-right"></i></a>
         </footer>
       </div>
     </div>
@@ -177,12 +175,52 @@
     </div>
   </div>
 
-  <!--A remplir avec le contenue de page-->
+
 
   <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
         class="bi bi-discord"></i>Inviter BaraBot</button>
     <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
   </footer>
+
+  <!--Modal-->
+
+  <div id="modal-link" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Mes réseaux</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="columns">
+          <div class="column">
+            <a class="button is-medium is-fullwidth" href="https://www.reddit.com/user/baraban511"><i
+                class="bi bi-reddit"></i></a>
+          </div>
+          <div class="column">
+            <a class="button is-medium is-fullwidth" href="https://github.com/Baraban511"><i
+                class="bi bi-github"></i></a>
+          </div>
+          <div class="column">
+            <a class="button is-medium is-fullwidth" href="https://discord.gg/AHP7UnrAM8"><i
+                class="bi bi-discord"></i></a>
+          </div>
+          <div class="column">
+            <a class="button is-medium is-fullwidth" href="https://www.twitch.tv/barab511">
+              <i class="bi bi-twitch"></i></a>
+          </div>
+          <div class="column">
+            <a class="button is-medium is-fullwidth" href="mailto:baraan511@outlook.fr?subject=BarabSite - Contact"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+      </section>
+      <footer class="modal-card-foot">
+        <p>J'ai une vie</p>
+      </footer>
+    </div>
+  </div>
+
+
 </body>
 
 </html>
