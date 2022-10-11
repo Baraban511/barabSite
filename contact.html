@@ -2,166 +2,123 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <title>Accueil | Barab</title>
-    <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js"></script>
-    <!--icones-->
-    <!--Icones end-->
-    <meta name="author" content="Jérémie">
+  <meta charset="utf-8">
+  <title>Accueil | Barab</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+  <!--icones-->
+  <!--Icones end-->
+  <meta name="author" content="Jérémie">
 </head>
 
 <body>
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="./index.html">
-                <img src="./img/barablogo.jpg" width="65,25" height="28">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="./index.html">
+        <img src="./img/barablogo.jpg" width="65,25" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="./index.html">
+          <i class="bi bi-house"></i>
+        </a>
+
+        <a class="navbar-item" href="./projets.html">
+          Projets
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Plus
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              A propos
             </a>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-
-
-        <div class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="./index.html">
-                    <i class="bi bi-house"></i>
-                </a>
-
-                <a class="navbar-item" href="./projets.html">
-                    Projets
-                </a>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                        Plus
-                    </a>
-
-                    <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                            A propos
-                        </a>
-                        <!--<a class="navbar-item">
+            <!--<a class="navbar-item">
               Jobs
             </a>-->
-                        <a class="navbar-item" href="./contact.html">
-                            Contact
-                        </a>
-                        <hr class="navbar-divider">
-                        <a class="navbar-item">
-                            Signaler un problème
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    
-                    <div class="buttons">
-                        <a class="button is-primary" href="./barabot/index.html">Découvrir BaraBot</a>
-                    </div>
-                </div>
-            </div>
+            <a class="navbar-item" href="./contact.html">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Signaler un problème
+            </a>
+          </div>
         </div>
-    </nav>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+
+          <div class="buttons">
+            <a class="button is-primary" href="./barabot/index.html">Découvrir BaraBot</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
 
 
-    <div class="columns">
-        <form class="field">
-          
+  <div class="columns">
+    <div class="column">
+      <div class="box">
+        <form action="https://send.pageclip.co/LJrhyuRm4uspAOFFVk0EabSpaX6JKBoA" class="pageclip-form field"
+          method="post">
+          <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
           <div class="field">
-            <label class="label">Username</label>
-            <div class="control has-icons-left has-icons-right">
-              <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-              <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-check"></i>
-              </span>
-            </div>
-            <p class="help is-success">This username is available</p>
+            <label class="label">Nom</label>
+            <input type="text" name="name" placeholder="nom" class="input is-info" />
           </div>
-          
+
           <div class="field">
-            <label class="label">Email</label>
-            <div class="control has-icons-left has-icons-right">
-              <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-              <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-              </span>
-            </div>
-            <p class="help is-danger">This email is invalid</p>
+            <label class="label">Mail</label>
+            <input type="email" name="email" placeholder="exemple@exemple.fr" class="input is-info" />
           </div>
-          
+
           <div class="field">
-            <label class="label">Subject</label>
-            <div class="control">
-              <div class="select">
-                <select>
-                  <option>Select dropdown</option>
-                  <option>With options</option>
-                </select>
-              </div>
+            <label class="label">Sujet</label>
+            <div class="select is-primary">
+              <select>
+                <option>Select dropdown</option>
+                <option>With options</option>
+              </select>
             </div>
           </div>
-          
           <div class="field">
             <label class="label">Message</label>
-            <div class="control">
-              <textarea class="textarea" placeholder="Message"></textarea>
-            </div>
+            <textarea class="textarea is-info" placeholder="Info textarea" name="Message"></textarea>
           </div>
-          
-          <div class="field">
-            <div class="control">
-              <label class="checkbox">
-                <input type="checkbox">
-                I agree to the <a href="#">terms and conditions</a>
-              </label>
-            </div>
-          </div>
-          
-          <div class="field">
-            <div class="control">
-              <label class="radio">
-                <input type="radio" name="question">
-                Yes
-              </label>
-              <label class="radio">
-                <input type="radio" name="question">
-                No
-              </label>
-            </div>
-          </div>
-          
-          <div class="field is-grouped">
-            <div class="control">
-              <button class="button is-link" disabled>Submit</button>
-            </div>
-            <div class="control">
-              <button class="button is-link is-light">Cancel</button>
-            </div>
-          </div>
-    </form>
+          <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+          <button type="submit" class="button is-info pageclip-form__submit">
+            Envoyer
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 
 
 
-    <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
-                class="bi bi-discord"></i>Inviter BaraBot</button>
-        <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
-    </footer>
+  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
+        class="bi bi-discord"></i>Inviter BaraBot</button>
+    <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
+  </footer>
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
