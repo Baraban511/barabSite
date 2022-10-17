@@ -85,27 +85,38 @@
             <input type="text" name="Nom" placeholder="Nom" class="input is-info" />
           </div>
 
+
           <div class="field">
             <label class="label">Mail</label>
-            <input type="email" name="email" placeholder="exemple@exemple.fr" class="input is-info" />
+            <p class="control has-icons-left">
+              <input type="email" name="email" placeholder="exemple@exemple.fr" class="input is-info" />
+              <span class="icon is-small is-left">
+                <i class="bi bi-send"></i>
+              </span>
+            </p>
           </div>
 
           <div class="field">
             <label class="label">Sujet</label>
-            <div class="select is-primary">
-              <select>
-                <option>Questionnement</option>
-                <option>Suggestion</option>
-              </select>
-            </div>
           </div>
+
+          <div class="select is-primary">
+
+            <select name="Sujet">
+              <option selected>Country</option>
+              <option>Select dropdown</option>
+              <option>With options</option>
+            </select>
+
+          </div>
+
           <div class="field">
             <label class="label">Message</label>
             <textarea class="textarea is-info" placeholder="Message" name="Message"></textarea>
           </div>
           <!-- This button will have a loading spinner. Keep the inner span for best results. -->
           <button type="submit" class="button is-info pageclip-form__submit">
-            Envoyer
+            <i class="bi bi-send"></i> Envoyer
           </button>
           <input class="button is-outlined" type="reset" value="Réinitialiser"></input>
         </form>
