@@ -79,16 +79,19 @@
           <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
           <div class="field">
             <label class="label">Nom</label>
-            <input type="text" name="Nom" placeholder="Nom" class="input is-info" />
+            <p class="control has-icons-left">
+              <input type="text" name="Nom" placeholder="Nom" class="input is-info" />
+              <span class="icon is-small is-left">
+                <i class="bi bi-person-square"></i>
+              </span>
+            </p>
           </div>
-
-
           <div class="field">
             <label class="label">Mail</label>
             <p class="control has-icons-left">
               <input type="email" name="email" placeholder="exemple@exemple.fr" class="input is-info" />
               <span class="icon is-small is-left">
-                <i class="bi bi-send"></i>
+                <i class="bi bi-envelope-fill"></i>
               </span>
             </p>
           </div>
@@ -100,9 +103,9 @@
           <div class="select is-primary">
 
             <select name="Sujet">
-              <option selected>Country</option>
-              <option>Select dropdown</option>
-              <option>With options</option>
+              <option>Signaler un problème</option>
+              <option>Faire une suggestion</option>
+              <option>Autre</option>
             </select>
 
           </div>
@@ -127,7 +130,7 @@
         class="bi bi-discord"></i>Inviter BaraBot</button>
     <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
   </footer>
-  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+  <script src="./js/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
