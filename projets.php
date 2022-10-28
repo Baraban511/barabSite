@@ -24,7 +24,7 @@
     <div class="column">
       <div class="card has-background-primary-light">
         <div class="card-image">
-          <figure class="image is-4by3">
+          <figure class="image">
             <img src="./barabot/img/barabotlogo.jpeg" alt="Logo BaraBot">
           </figure>
         </div>
@@ -54,15 +54,15 @@
     <div class="column">
       <div class="card has-background-primary-light">
         <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="./img/barablogo.jpg" alt="Logo Barab">
+          <figure class="image">
+            <img src="./img/logo_barab_couleur.png" alt="Logo Barab">
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Tête barab">
+                <img class="is-rounded" src="./img/logo_barab_rond.png" alt="Logo rond Barab">
               </figure>
             </div>
             <div class="media-content">
@@ -88,7 +88,7 @@
       <div class="card has-background-primary-light">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/480x480.png" alt="Logo Barab">
+            <img src="https://bulma.io/images/placeholders/480x480.png" alt="Logo BarabCraft">
           </figure>
         </div>
         <div class="card-content">

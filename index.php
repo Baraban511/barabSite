@@ -20,15 +20,15 @@
     <div class="column is-one-quarter">
       <div id="sticky" class="card has-background-primary-light">
         <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="./img/barablogo.jpg" alt="Logo Barab">
+          <figure class="image">
+            <img src="./img/logo_barab_couleur.png" alt="Logo Barab">
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Tête barab">
+                <img class="is-rounded" src="./img/logo_barab_rond.png" alt="Logo barab">
               </figure>
             </div>
             <div class="media-content">

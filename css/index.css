@@ -31,3 +31,8 @@ button {
 i {
 margin: 5px;
 }
+nav  {
+  height: 3em;
+  position: sticky;
+  top: 0px;
+}
