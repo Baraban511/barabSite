@@ -14,11 +14,11 @@
 
   <div class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="./index.html">
+      <a class="navbar-item" href="./index">
         <i class="bi bi-house"></i>
       </a>
 
-      <a class="navbar-item" href="./projets.html">
+      <a class="navbar-item" href="./projets">
         Projets
       </a>
 
@@ -29,9 +29,9 @@
 
         <div class="navbar-dropdown">
           <a class="navbar-item">
-            A propos
+            Salut
           </a>
-          <a class="navbar-item" href="./contact.html">
+          <a class="navbar-item" href="./contact">
             Contact
           </a>
           <hr class="navbar-divider">

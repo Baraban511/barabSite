@@ -22,7 +22,7 @@
     </div>
   </article>
     <!--Navbar -->
-    <?php include("./code/navbar"); ?>
+    <?php include("navbar"); ?>
 
     <!--Navabar End-->
     <div class="columns">

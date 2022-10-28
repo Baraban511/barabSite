@@ -13,8 +13,7 @@
 
 <body>
 <!--Navbar -->
-<?php include("./code/navbar"); ?>
-
+<?php include("navbar"); ?>
 <!--Navabar End-->
   <div class="box">
     <p class="title">Mes projets :</p>
