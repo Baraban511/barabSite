@@ -1,4 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.message .delete') || []).forEach(($delete) => {
+    const $message = $delete.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $message.parentNode.removeChild($message);
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
   (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
     const $notification = $delete.parentNode;
 
