@@ -12,9 +12,9 @@
 </head>
 
 <body>
-<!--Navbar -->
-<?php include("navbar"); ?>
-<!--Navabar End-->
+  <!--Navbar -->
+  <?php include("navbar"); ?>
+  <!--Navabar End-->
   <div class="columns">
 
     <div class="column is-one-quarter">
@@ -48,11 +48,11 @@
         <footer class="card-footer is-size-4">
           <a href="https://www.reddit.com/user/baraban511" class="card-footer-item"><i class="bi bi-reddit"></i></a>
           <a href="https://github.com/Baraban511" class="card-footer-item"><i class="bi bi-github"></i></a>
-          <a class="card-footer-item js-modal-trigger" data-target="modal-link"><i
-              class="bi bi-box-arrow-up-right"></i></a>
+          <a class="card-footer-item js-modal-trigger" data-target="modal-link"><i class="bi bi-box-arrow-up-right"></i></a>
         </footer>
       </div>
     </div>
+    <p class="box">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus ante, eleifend a turpis nec, tincidunt
       pretium orci. Sed semper felis ac augue posuere, sed iaculis dolor fermentum. Nunc aliquet est id lectus efficitur
       fringilla. Etiam convallis ultricies sem, eget aliquet massa porta sit amet. Duis porta ac arcu eget feugiat.
@@ -116,13 +116,13 @@
       Vivamus libero mi, finibus eu enim ac, gravida ultrices nunc. Quisque in velit convallis, laoreet nisi facilisis,
       mollis libero. Ut hendrerit ultricies sem non fringilla. Quisque sit amet mi euismod, faucibus arcu non, imperdiet
       arcu.
-    </div>
+    </p>
+  </div>
   </div>
 
 
 
-  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
-        class="bi bi-discord"></i>Inviter BaraBot</button><br>
+  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i class="bi bi-discord"></i>Inviter BaraBot</button><br>
     <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
   </footer>
 
@@ -138,28 +138,24 @@
       <section class="modal-card-body">
         <div class="columns">
           <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://www.reddit.com/user/baraban511"><i
-                class="bi bi-reddit"></i></a>
+            <a class="button is-medium is-fullwidth" href="https://www.reddit.com/user/baraban511"><i class="bi bi-reddit"></i></a>
           </div>
           <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://github.com/Baraban511"><i
-                class="bi bi-github"></i></a>
+            <a class="button is-medium is-fullwidth" href="https://github.com/Baraban511"><i class="bi bi-github"></i></a>
           </div>
           <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://discord.gg/AHP7UnrAM8"><i
-                class="bi bi-discord"></i></a>
+            <a class="button is-medium is-fullwidth" href="https://discord.gg/AHP7UnrAM8"><i class="bi bi-discord"></i></a>
           </div>
           <div class="column">
             <a class="button is-medium is-fullwidth" href="https://www.twitch.tv/barab511">
               <i class="bi bi-twitch"></i></a>
           </div>
           <div class="column">
-            <a class="button is-medium is-fullwidth" href="mailto:baraan511@outlook.fr?subject=BarabSite - Contact"><i
-                class="bi bi-envelope"></i></a>
+            <a class="button is-medium is-fullwidth" href="mailto:baraan511@outlook.fr?subject=BarabSite - Contact"><i class="bi bi-envelope"></i></a>
           </div>
       </section>
       <footer class="modal-card-foot">
-      <!--Ajouter description lors du survol des boutons-->
+        <!--Ajouter description lors du survol des boutons-->
         <p>Cette section va bientot changer !</p>
       </footer>
     </div>

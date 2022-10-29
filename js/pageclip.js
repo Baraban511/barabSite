@@ -4,7 +4,7 @@
     var e = 'string' == typeof __pageclip_base ? __pageclip_base : 'https://send.pageclip.co',
     m = {
       _base: e,
-      _successTemplate: '<div class="pageclip-form__success__message">Votre message à bien été envoyé !</div>',
+      _successTemplate: '<div class="is-unselectable pageclip-form__success__message">Merci pour votre message !</div>',
       cssBase: 'pageclip-form',
       form: function (n, r) {
         if (r = r || {
