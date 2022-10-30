@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Accueil | Barab</title>
+  <title>Contact | Barab</title>
   <link rel="stylesheet" href="css/index.css">
   <script src="js/index.js"></script>
   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
@@ -13,14 +13,15 @@
 </head>
 
 <body>
-<!--Navbar -->
-<?php include("navbar"); ?>
-<!--Navabar End-->
+  <!--Navbar -->
+  <?php include("navbar"); ?>
+  <!--Navabar End-->
   <div class="columns">
     <div class="column">
       <div class="box">
-        <form action="https://send.pageclip.co/LJrhyuRm4uspAOFFVk0EabSpaX6JKBoA" class="pageclip-form field"
-          method="post">
+
+        <p class="title is-2">Contact</p>
+        <form action="https://send.pageclip.co/LJrhyuRm4uspAOFFVk0EabSpaX6JKBoA" class="pageclip-form field" method="post">
           <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
           <div class="field">
             <label class="label">Nom</label>
@@ -69,10 +70,9 @@
     </div>
   </div>
 
-  
 
-  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
-        class="bi bi-discord"></i>Inviter BaraBot</button><br>
+
+  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i class="bi bi-discord"></i>Inviter BaraBot</button><br>
     <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
   </footer>
   <script src="./js/pageclip.js" charset="utf-8"></script>

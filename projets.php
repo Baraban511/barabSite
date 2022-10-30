@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Accueil | Barab</title>
+  <title>Projets | Barab</title>
   <link rel="stylesheet" href="css/index.css">
   <script src="js/index.js"></script>
   <!--icones-->
@@ -12,11 +12,11 @@
 </head>
 
 <body>
-<!--Navbar -->
-<?php include("navbar"); ?>
-<!--Navabar End-->
+  <!--Navbar -->
+  <?php include("navbar"); ?>
+  <!--Navabar End-->
   <div class="box">
-    <p class="title">Mes projets :</p>
+    <p class="title is-2">Mes projets :</p>
   </div>
 
   <div class="columns">
@@ -46,7 +46,8 @@
           </div>
         </div>
         <footer class="card-footer is-size-4">
-          <button class="button is-info is-outlined is-large card-footer-item">Découvrir</button>
+          
+        <button class="button is-info is-outlined is-large card-footer-item js-modal-trigger" data-target="modal-barabot">Découvrir</button>
         </footer>
       </div>
     </div>
@@ -79,7 +80,7 @@
           </div>
         </div>
         <footer class="card-footer">
-          <button class="button is-info is-outlined is-large card-footer-item">Découvrir</button>
+          <button class="button is-info is-outlined is-large card-footer-item js-modal-trigger" data-target="modal-barabsite">Découvrir</button>
         </footer>
       </div>
     </div>
@@ -101,12 +102,12 @@
 
           <div class="content">
             Un incroyable serveur minecraft.
-            
+
           </div>
         </div>
         <p>Arrive bientôt</p>
         <footer class="card-footer">
-          <button class="button is-info is-outlined is-large card-footer-item" disabled>Découvrir</button>
+          <button class="button is-info is-outlined is-large card-footer-item js-modal-trigger" data-target="modal-barabcraft" disabled>Découvrir</button>
         </footer>
       </div>
     </div>
@@ -114,14 +115,13 @@
 
 
 
-  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
-        class="bi bi-discord"></i>Inviter BaraBot</button><br>
+  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i class="bi bi-discord"></i>Inviter BaraBot</button><br>
     <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
   </footer>
 
   <!--Modals-->
 
-  <div id="modal-link" class="modal">
+  <div id="modal-barabsite" class="modal">
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
@@ -129,27 +129,47 @@
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
-        <div class="columns">
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://www.reddit.com/user/baraban511"><i
-                class="bi bi-reddit"></i></a>
-          </div>
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://github.com/Baraban511"><i
-                class="bi bi-github"></i></a>
-          </div>
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://discord.gg/AHP7UnrAM8"><i
-                class="bi bi-discord"></i></a>
-          </div>
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://www.twitch.tv/barab511">
-              <i class="bi bi-twitch"></i></a>
-          </div>
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="mailto:baraan511@outlook.fr?subject=BarabSite - Contact"><i
-                class="bi bi-envelope"></i></a>
-          </div>
+        <p>
+          BarabSite
+        </p>
+      </section>
+      <footer class="modal-card-foot">
+        <!--Ajouter description lors du survol des boutons-->
+        <p>Cette section va bientot changer !</p>
+      </footer>
+    </div>
+  </div>
+
+  <div id="modal-baracraft" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Mes réseaux</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>
+          BarabCraft
+        </p>
+      </section>
+      <footer class="modal-card-foot">
+        <!--Ajouter description lors du survol des boutons-->
+        <p>Cette section va bientot changer !</p>
+      </footer>
+    </div>
+  </div>
+
+  <div id="modal-barabot" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Mes réseaux</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>
+          BaraBot
+        </p>
       </section>
       <footer class="modal-card-foot">
         <!--Ajouter description lors du survol des boutons-->
