@@ -29,7 +29,7 @@
             Contact
           </a>
           <hr class="navbar-divider">
-          <p class="navbar-item">
+          <p class="navbar-item is-unselectable">
             BarabSite V1.0.0
           </p>
         </div>

@@ -7,6 +7,23 @@
   <link rel="stylesheet" href="css/index.css">
   <script src="js/index.js"></script>
   <!--icones-->
+  <link rel="apple-touch-icon" sizes="57x57" href="./img/ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./img/ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./img/ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./img/ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./img/ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./img/ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./img/ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./img/ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./img/ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/ico/favicon-16x16.png">
+  <link rel="manifest" href="./img/ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./img/ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <!--Icones end-->
   <meta name="author" content="Jérémie">
 </head>
@@ -38,8 +55,7 @@
           </div>
 
           <div class="content">
-            J'aime coder partout, dans le bus, le train, sur mon canapé ou debout.<a href="https://bulma.io">@bulmaio</a>.
-            <a>#css</a> <a>#responsive</a>
+            J'aime coder partout, dans le bus, le<i class="bi bi-train-lightrail-front"></i>, sur mon canapé ou debout. J'aime jouer avec ma<i class="bi bi-xbox"></i>et écouter de la<i class="bi bi-music-note"></i>.
             <br>
             <time datetime="2016-1-1">01:30 AM - 05 nov 2008</time>
           </div>
@@ -137,26 +153,68 @@
       </header>
       <section class="modal-card-body">
         <div class="columns">
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://www.reddit.com/user/baraban511"><i class="bi bi-reddit"></i></a>
+          <div class="column is-one-fifth">
+            <aside class="menu sticky">
+              <p class="menu-label">
+                Mon côté social
+              </p>
+              <ul class="menu-list">
+                <li><a href="#discord">Discord</a></li>
+                <li><a href="#reddit">Reddit</a></li>
+              </ul>
+              <p class="menu-label">
+                Mon côté developpeur
+              </p>
+              <ul class="menu-list">
+                <li><a href="#github">Github</a></li>
+              </ul>
+              <p class="menu-label">
+                Mon côté geek
+              </p>
+              <ul class="menu-list">
+                <li><a href="#twitch">Twitch</a></li>
+              </ul>
+              <p class="menu-label">
+                Autre contact
+              </p>
+              <ul class="menu-list">
+                <li><a href="#mail">Mail</a></li>
+              </ul>
+            </aside>
           </div>
+
           <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://github.com/Baraban511"><i class="bi bi-github"></i></a>
+            <div class="box">
+              <p id="discord" class="subtitle is-3 block">Discord</p>
+              <p class="block">C'est l'endroit ou je passe le plus clair de mon temps avec mon canapé. J'accepte les DM des gens gentils.</p>
+              <a class="button is-info is-outlined block" href="https://discord.gg/AHP7UnrAM8"><i class="bi bi-discord"></i></a>
+            </div>
+            <div class="box">
+              <p id="reddit" class="subtitle is-3 block">Reddit</p>
+              <p class="block">Je suis un petit nouveau sur Reddit. Grand ammateur de même, venez me parler de vos passions.</p>
+              <a class="button is-info is-outlined block" href="https://www.reddit.com/user/baraban511"><i class="bi bi-reddit"></i></a>
+            </div>
+            <div class="box">
+              <p id="github" class="subtitle is-3 block">Github</p>
+              <p class="block">Le meilleur site internet avec le mien. Venez parler résolution de beug !</p>
+              <a class="button is-info is-outlined block" href="https://github.com/Baraban511"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="box">
+              <p id="twitch" class="subtitle is-3 block">Twitch</p>
+              <p class="block">Le meilleur site internet avec le mien. Venez parler résolution de beug !</p>
+              <a class="button is-info is-outlined block" href="https://www.twitch.tv/barab511"><i class="bi bi-twitch"></i></a>
+            </div>
+            <div class="box">
+              <p id="mail" class="subtitle is-3 block">Mail</p>
+              <p class="block">Retour au base. Le mail. Moyen de communication plutôt rapide, c'esr pratique si vous avez une question particulière</p>
+              <a class="button is-info is-outlined block" href="mailto:baraban511@outlook.fr?subject=BarabSite - Contact"><i class="bi bi-envelope"></i></a>
+            </div>
           </div>
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://discord.gg/AHP7UnrAM8"><i class="bi bi-discord"></i></a>
-          </div>
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="https://www.twitch.tv/barab511">
-              <i class="bi bi-twitch"></i></a>
-          </div>
-          <div class="column">
-            <a class="button is-medium is-fullwidth" href="mailto:baraan511@outlook.fr?subject=BarabSite - Contact"><i class="bi bi-envelope"></i></a>
-          </div>
+        </div>
       </section>
       <footer class="modal-card-foot">
         <!--Ajouter description lors du survol des boutons-->
-        <p>Cette section va bientot changer !</p>
+        <p class="is-unselectable">J'aime internet et c'est un endroit incroyable. Merci de le respecter lui ainsi que ses habitants. Ce qui veut dire les laisser dormir, être gentil et mettre des MAJUSCULES à vos phrases ! Je ne répond qu'a ceux qui respectent internet.</p>
       </footer>
     </div>
   </div>

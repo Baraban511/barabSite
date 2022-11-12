@@ -15,7 +15,7 @@
 }
 #sticky{
   position: sticky;
-  top: 0.5em;
+  top: 1em;
   padding: 3%;
 }
 footer {
