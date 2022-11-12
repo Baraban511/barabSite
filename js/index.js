@@ -9,22 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-    const $notification = $delete.parentNode;
-
-    $delete.addEventListener('click', () => {
-      $notification.parentNode.removeChild($notification);
-    });
-  });
-});
-
-document.addEventListener('DOMContentLoaded', () => {
 
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
   // Add a click event on each of them
-  $navbarBurgers.forEach(el => {
+  $navbarBurgers.forEach( el => {
     el.addEventListener('click', () => {
 
       // Get the target from the "data-target" attribute
@@ -40,6 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    const $notification = $delete.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+  });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   // Functions to open and close a modal

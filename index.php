@@ -136,9 +136,8 @@
   </div>
   </div>
 
-
-
-  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i class="bi bi-discord"></i>Inviter BaraBot</button><br>
+  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
+        class="bi bi-discord"></i>Inviter BaraBot</button><br>
     <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
   </footer>
 

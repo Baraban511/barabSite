@@ -1,7 +1,12 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="./index">
+    <a class="navbar-item" href="/">
       <img src="./img/logo_barab_simple.png">
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
     </a>
   </div>
 
@@ -27,6 +32,9 @@
           </a>
           <a class="navbar-item" href="./contact">
             Contact
+          </a>
+          <a class="navbar-item" href="./archives">
+            Archives
           </a>
           <hr class="navbar-divider">
           <p class="navbar-item is-unselectable">
