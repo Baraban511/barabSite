@@ -32,9 +32,9 @@
   <!--Navbar -->
   <?php include("navbar"); ?>
   <!--Navabar End-->
-  <div class="columns">
+  <div class="columns is-desktop">
 
-    <div class="column is-one-quarter">
+    <div class="column is-one-quarter-widescreen is-full-tablet is-one-quarter-desktop is-one-quarter-fullhd is-full-mobile">
       <div id="sticky" class="card has-background-primary-light">
         <div class="card-image">
           <figure class="image">
@@ -68,77 +68,77 @@
         </footer>
       </div>
     </div>
-    <p class="box">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus ante, eleifend a turpis nec, tincidunt
-      pretium orci. Sed semper felis ac augue posuere, sed iaculis dolor fermentum. Nunc aliquet est id lectus efficitur
-      fringilla. Etiam convallis ultricies sem, eget aliquet massa porta sit amet. Duis porta ac arcu eget feugiat.
-      Donec mollis sagittis scelerisque. Cras auctor dapibus est sed finibus. Nullam dignissim sagittis nisl, vitae
-      tempus elit scelerisque ut. Suspendisse dapibus mi nec sem posuere fermentum. Etiam vel faucibus neque. Donec
-      consectetur lectus ut iaculis gravida.
+    <div class="column">
+      <p class="box">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus ante, eleifend a turpis nec, tincidunt
+        pretium orci. Sed semper felis ac augue posuere, sed iaculis dolor fermentum. Nunc aliquet est id lectus efficitur
+        fringilla. Etiam convallis ultricies sem, eget aliquet massa porta sit amet. Duis porta ac arcu eget feugiat.
+        Donec mollis sagittis scelerisque. Cras auctor dapibus est sed finibus. Nullam dignissim sagittis nisl, vitae
+        tempus elit scelerisque ut. Suspendisse dapibus mi nec sem posuere fermentum. Etiam vel faucibus neque. Donec
+        consectetur lectus ut iaculis gravida.
 
-      Fusce finibus porta lectus, et ultricies felis sollicitudin at. Vestibulum dignissim nibh nibh, vel suscipit nisl
-      finibus eu. In sagittis, enim vitae lobortis pretium, lorem elit bibendum massa, ut porttitor ante ipsum sit amet
-      mauris. Vivamus vitae ex cursus, ornare eros convallis, condimentum metus. Sed sed maximus augue. Ut hendrerit,
-      ligula et congue eleifend, massa sapien cursus justo, in rhoncus metus dolor quis enim. Quisque ac varius tellus.
-      Nunc iaculis interdum justo, vitae egestas libero. Sed a finibus sapien. Sed tortor lorem, commodo porta dolor id,
-      pharetra porta leo. Integer in augue dapibus, scelerisque turpis vel, faucibus ex. Nam vehicula malesuada erat.
-      Fusce pretium gravida neque, ac accumsan urna dignissim vitae. Curabitur pulvinar velit eu tortor scelerisque
-      tincidunt. Etiam finibus cursus laoreet.
+        Fusce finibus porta lectus, et ultricies felis sollicitudin at. Vestibulum dignissim nibh nibh, vel suscipit nisl
+        finibus eu. In sagittis, enim vitae lobortis pretium, lorem elit bibendum massa, ut porttitor ante ipsum sit amet
+        mauris. Vivamus vitae ex cursus, ornare eros convallis, condimentum metus. Sed sed maximus augue. Ut hendrerit,
+        ligula et congue eleifend, massa sapien cursus justo, in rhoncus metus dolor quis enim. Quisque ac varius tellus.
+        Nunc iaculis interdum justo, vitae egestas libero. Sed a finibus sapien. Sed tortor lorem, commodo porta dolor id,
+        pharetra porta leo. Integer in augue dapibus, scelerisque turpis vel, faucibus ex. Nam vehicula malesuada erat.
+        Fusce pretium gravida neque, ac accumsan urna dignissim vitae. Curabitur pulvinar velit eu tortor scelerisque
+        tincidunt. Etiam finibus cursus laoreet.
 
-      Fusce lacus nisi, congue at ligula vel, facilisis scelerisque nisl. Donec eget felis tortor. Nulla eu enim vel
-      sapien sagittis rhoncus. Pellentesque quis blandit mauris. Curabitur maximus sem id elementum feugiat. In felis
-      libero, pretium in felis tincidunt, vestibulum vestibulum ligula. Nullam sit amet lorem nisl. Nunc nec felis ex.
-      Sed lacus diam, viverra ac lorem a, volutpat consequat lorem. Donec velit tortor, cursus vel quam ac, semper
-      aliquet mauris. Phasellus aliquam gravida nulla, sed rutrum sapien feugiat ut. Praesent quis arcu ac enim sodales
-      aliquet. Fusce aliquam commodo ipsum, id fringilla lorem aliquet ut. Aliquam elementum eu ex a tempus.
+        Fusce lacus nisi, congue at ligula vel, facilisis scelerisque nisl. Donec eget felis tortor. Nulla eu enim vel
+        sapien sagittis rhoncus. Pellentesque quis blandit mauris. Curabitur maximus sem id elementum feugiat. In felis
+        libero, pretium in felis tincidunt, vestibulum vestibulum ligula. Nullam sit amet lorem nisl. Nunc nec felis ex.
+        Sed lacus diam, viverra ac lorem a, volutpat consequat lorem. Donec velit tortor, cursus vel quam ac, semper
+        aliquet mauris. Phasellus aliquam gravida nulla, sed rutrum sapien feugiat ut. Praesent quis arcu ac enim sodales
+        aliquet. Fusce aliquam commodo ipsum, id fringilla lorem aliquet ut. Aliquam elementum eu ex a tempus.
 
-      Sed eget lorem vestibulum purus tempor rhoncus. Praesent sed velit eu ex tristique commodo at eu neque. Donec ac
-      lacus placerat, volutpat elit id, venenatis tortor. Duis nec pulvinar orci, quis venenatis diam. Aenean eu tempus
-      enim. Mauris dictum vel tellus eget sagittis. Duis placerat ipsum in mi accumsan, molestie rhoncus justo eleifend.
-      Sed in lorem quis risus feugiat pretium. Suspendisse at ante rutrum, maximus nulla non, fermentum arcu.
+        Sed eget lorem vestibulum purus tempor rhoncus. Praesent sed velit eu ex tristique commodo at eu neque. Donec ac
+        lacus placerat, volutpat elit id, venenatis tortor. Duis nec pulvinar orci, quis venenatis diam. Aenean eu tempus
+        enim. Mauris dictum vel tellus eget sagittis. Duis placerat ipsum in mi accumsan, molestie rhoncus justo eleifend.
+        Sed in lorem quis risus feugiat pretium. Suspendisse at ante rutrum, maximus nulla non, fermentum arcu.
 
-      Phasellus maximus, est eget vehicula ullamcorper, ante velit hendrerit libero, quis vulputate sapien quam non
-      sapien. Morbi egestas lorem vel quam ultrices pulvinar. Vestibulum lacinia augue id tortor auctor, eu dignissim
-      elit ultricies. Nunc ullamcorper quam diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis
-      egestas ligula. Integer egestas sodales ex, et tempor libero.
+        Phasellus maximus, est eget vehicula ullamcorper, ante velit hendrerit libero, quis vulputate sapien quam non
+        sapien. Morbi egestas lorem vel quam ultrices pulvinar. Vestibulum lacinia augue id tortor auctor, eu dignissim
+        elit ultricies. Nunc ullamcorper quam diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis
+        egestas ligula. Integer egestas sodales ex, et tempor libero.
 
-      Proin eleifend, eros vel commodo lobortis, eros nunc ullamcorper nibh, nec bibendum tortor turpis at sapien.
-      Pellentesque faucibus nulla ut tortor semper, efficitur vestibulum mauris ullamcorper. Pellentesque semper ipsum
-      vitae felis malesuada laoreet. In porttitor eget leo sed varius. Nulla fringilla purus dui, id mollis justo
-      vehicula ut. Vivamus eget consequat magna. Proin elementum massa id semper sodales. Etiam tincidunt eget leo in
-      convallis. Morbi ac laoreet diam, quis ultricies ante. Aliquam sodales pretium eros quis scelerisque. Pellentesque
-      id metus nunc.
+        Proin eleifend, eros vel commodo lobortis, eros nunc ullamcorper nibh, nec bibendum tortor turpis at sapien.
+        Pellentesque faucibus nulla ut tortor semper, efficitur vestibulum mauris ullamcorper. Pellentesque semper ipsum
+        vitae felis malesuada laoreet. In porttitor eget leo sed varius. Nulla fringilla purus dui, id mollis justo
+        vehicula ut. Vivamus eget consequat magna. Proin elementum massa id semper sodales. Etiam tincidunt eget leo in
+        convallis. Morbi ac laoreet diam, quis ultricies ante. Aliquam sodales pretium eros quis scelerisque. Pellentesque
+        id metus nunc.
 
-      Ut egestas tristique leo, facilisis laoreet velit venenatis vitae. Suspendisse interdum massa diam. Mauris quis
-      diam nibh. Pellentesque dignissim interdum mi eu gravida. Nam dignissim ipsum commodo urna facilisis, vel suscipit
-      odio congue. Ut faucibus nec augue ullamcorper feugiat. Donec ultricies erat urna, non pharetra enim porttitor
-      quis. Nam consequat magna at sem porttitor eleifend. Nunc non felis lectus. Nullam nec pulvinar turpis. Quisque
-      egestas tellus at viverra venenatis. Sed at elementum magna, ut facilisis quam. Fusce venenatis magna vitae nisi
-      venenatis, ac volutpat massa maximus. Aliquam semper in enim ut pretium. Nam mattis metus at magna ultrices
-      tempus.
+        Ut egestas tristique leo, facilisis laoreet velit venenatis vitae. Suspendisse interdum massa diam. Mauris quis
+        diam nibh. Pellentesque dignissim interdum mi eu gravida. Nam dignissim ipsum commodo urna facilisis, vel suscipit
+        odio congue. Ut faucibus nec augue ullamcorper feugiat. Donec ultricies erat urna, non pharetra enim porttitor
+        quis. Nam consequat magna at sem porttitor eleifend. Nunc non felis lectus. Nullam nec pulvinar turpis. Quisque
+        egestas tellus at viverra venenatis. Sed at elementum magna, ut facilisis quam. Fusce venenatis magna vitae nisi
+        venenatis, ac volutpat massa maximus. Aliquam semper in enim ut pretium. Nam mattis metus at magna ultrices
+        tempus.
 
-      Fusce tristique justo ut magna congue, non consectetur dolor rutrum. Nunc eu finibus nulla. Pellentesque
-      consequat, nibh convallis tincidunt egestas, massa nulla porta felis, nec dignissim urna justo ac nisi. Curabitur
-      semper purus tellus, ut gravida enim hendrerit ut. Duis congue vitae dui nec dapibus. Morbi pellentesque leo a
-      nisl euismod posuere. In ultrices nunc ex, sit amet aliquet orci auctor at.
+        Fusce tristique justo ut magna congue, non consectetur dolor rutrum. Nunc eu finibus nulla. Pellentesque
+        consequat, nibh convallis tincidunt egestas, massa nulla porta felis, nec dignissim urna justo ac nisi. Curabitur
+        semper purus tellus, ut gravida enim hendrerit ut. Duis congue vitae dui nec dapibus. Morbi pellentesque leo a
+        nisl euismod posuere. In ultrices nunc ex, sit amet aliquet orci auctor at.
 
-      Curabitur suscipit enim at nisl lobortis, et posuere libero pellentesque. Proin eget accumsan lectus. Integer
-      laoreet interdum porta. Fusce finibus velit pulvinar nisi elementum interdum. Cras ut viverra justo. Vivamus mi
-      sapien, placerat at sapien ac, maximus laoreet sem. Nunc interdum vitae lectus lobortis tempus. Fusce varius eu ex
-      sed viverra. In vel ante a tortor congue venenatis.
+        Curabitur suscipit enim at nisl lobortis, et posuere libero pellentesque. Proin eget accumsan lectus. Integer
+        laoreet interdum porta. Fusce finibus velit pulvinar nisi elementum interdum. Cras ut viverra justo. Vivamus mi
+        sapien, placerat at sapien ac, maximus laoreet sem. Nunc interdum vitae lectus lobortis tempus. Fusce varius eu ex
+        sed viverra. In vel ante a tortor congue venenatis.
 
-      Pellentesque quis nibh lorem. Pellentesque elementum a nisl gravida sagittis. In mauris neque, tincidunt a mattis
-      sit amet, eleifend vitae felis. Mauris at augue maximus urna facilisis cursus. Duis sagittis sagittis aliquam.
-      Vivamus libero mi, finibus eu enim ac, gravida ultrices nunc. Quisque in velit convallis, laoreet nisi facilisis,
-      mollis libero. Ut hendrerit ultricies sem non fringilla. Quisque sit amet mi euismod, faucibus arcu non, imperdiet
-      arcu.
-    </p>
+        Pellentesque quis nibh lorem. Pellentesque elementum a nisl gravida sagittis. In mauris neque, tincidunt a mattis
+        sit amet, eleifend vitae felis. Mauris at augue maximus urna facilisis cursus. Duis sagittis sagittis aliquam.
+        Vivamus libero mi, finibus eu enim ac, gravida ultrices nunc. Quisque in velit convallis, laoreet nisi facilisis,
+        mollis libero. Ut hendrerit ultricies sem non fringilla. Quisque sit amet mi euismod, faucibus arcu non, imperdiet
+        arcu.
+      </p>
+    </div>
   </div>
-  </div>
 
-  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i
-        class="bi bi-discord"></i>Inviter BaraBot</button><br>
-    <a href='mailto:contact@barab.ovh?subject=Contact'>Envoyer des commentaires</a>
+  <footer><button class="button is-info is-small" onclick="window.location.href = './barabot/index.html'"><i class="bi bi-discord"></i>Inviter BaraBot</button><br>
+    <a href='mailto:contact@barab.ovh?subject=Contact&body=<?php echo 'connecté depuis ' . $_SERVER['HTTP_USER_AGENT']; ?>'>Envoyer des commentaires</a>
   </footer>
 
   <!--Modal-->

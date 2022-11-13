@@ -3,7 +3,7 @@
     <a class="navbar-item" href="/">
       <img src="./img/logo_barab_simple.png">
     </a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="NavbarGeneral">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -11,7 +11,7 @@
   </div>
 
 
-  <div class="navbar-menu">
+  <div class="navbar-menu" id="NavbarGeneral">
     <div class="navbar-start">
       <a class="navbar-item" href="./index">
         <i class="bi bi-house"></i>
