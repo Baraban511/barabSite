@@ -1,5 +1,3 @@
-import LemonIcon from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/lemon-2.tsx";
-
 type Props = {
   active: string;
 };
@@ -14,9 +12,9 @@ export default function Header({ active }: Props) {
   return (
     <div class="bg-white w-full max-w-screen-lg py-6 px-8 flex flex-col md:flex-row gap-4">
       <div class="flex items-center flex-1">
-        <LemonIcon aria-hidden="true" />
+        <img href="/logo_barab_couleur.png"/>
         <div class="text-2xl ml-1 font-bold">
-          Fresh
+          barab
         </div>
       </div>
       <ul class="flex items-center gap-6">
