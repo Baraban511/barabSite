@@ -1,5 +1,5 @@
-import LemonIcon from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/lemon-2.tsx";
 import BrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/brand-github.tsx";
+import IconBrandTailwind from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-tailwind.tsx"
 
 export default function Footer() {
   const menus = [
@@ -26,7 +26,7 @@ export default function Footer() {
     <div class="bg-white flex flex-col md:flex-row w-full max-w-screen-lg gap-8 md:gap-16 px-8 py-8 text-sm">
       <div class="flex-1">
         <div class="flex items-center gap-1">
-          <LemonIcon class="inline-block" aria-hidden="true" />
+        <IconBrandTailwind class="w-6 h-6" />
           <div class="font-bold text-2xl">
             Fresh
           </div>

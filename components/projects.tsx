@@ -1,23 +1,23 @@
-import IconAlarm from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/alarm.tsx";
-import IconAirBalloon from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/air-balloon.tsx";
-import IconArmchair from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/armchair.tsx";
 import IconChevronRight from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/chevron-right.tsx";
-
+import IconBrandDatabricks from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-databricks.tsx"
+import IconCalendarCode from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/calendar-code.tsx"
+import LemonIcon from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/lemon-2.tsx";
+import IconBrandReact from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-react.tsx"
 export default function Projects() {
   const featureItems = [
     {
-      icon: IconAlarm,
+      icon: IconBrandDatabricks,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam",
       link: "#",
     },
     {
-      icon: IconAirBalloon,
+      icon: IconCalendarCode,
       description:
         "Nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, ",
     },
     {
-      icon: IconArmchair,
+      icon: LemonIcon,
       description: "Eget aliquam nisl nisl sit amet lorem.",
       link: "#",
     },
@@ -28,7 +28,7 @@ export default function Projects() {
       {featureItems.map((item) => {
         return (
           <div class="flex-1 space-y-2">
-            <div class="bg-blue-600 inline-block p-3 rounded-xl text-white">
+            <div class="bg-[#379392] inline-block p-3 rounded-xl text-white">
               <item.icon class="w-10 h-10" aria-hidden="true" />
             </div>
             <p class="text-xl">

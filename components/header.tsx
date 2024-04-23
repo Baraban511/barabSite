@@ -5,17 +5,14 @@ type Props = {
 export default function Header({ active }: Props) {
   const menus = [
     { name: "Home", href: "/" },
-    { name: "Components", href: "/components" },
-    { name: "Docs", href: "/docs" },
+    { name: "Components", href: "/comp" },
+    { name: "Docs", href: "/doc" },
   ];
 
   return (
     <div class="bg-white w-full max-w-screen-lg py-6 px-8 flex flex-col md:flex-row gap-4">
       <div class="flex items-center flex-1">
-        <img src="./barab_logo.png" className="size-5" />
-        <div class="text-2xl ml-1 font-bold">
-          barab
-        </div>
+        <a href="/"><img src="./barab_logo_simple.png" className="h-6" /></a>
       </div>
       <ul class="flex items-center gap-6">
         {menus.map((menu) => (
@@ -23,7 +20,7 @@ export default function Header({ active }: Props) {
             <a
               href={menu.href}
               class={"text-gray-500 hover:text-gray-700 py-1 border-gray-500" +
-                (menu.href === active ? " font-bold border-b-2" : "")}
+                (menu.href === active ? "font-bold border-b-2" : "")}
             >
               {menu.name}
             </a>
