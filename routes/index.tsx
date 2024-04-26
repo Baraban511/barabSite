@@ -1,4 +1,3 @@
-import { useSignal } from "@preact/signals";
 import Projects from "../components/projects.tsx";
 
 export default function Home() {

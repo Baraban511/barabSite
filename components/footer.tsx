@@ -1,5 +1,5 @@
 import BrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/brand-github.tsx";
-import IconBrandTailwind from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-tailwind.tsx"
+import IconBrandTailwind from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-tailwind.tsx";
 
 export default function Footer() {
   const menus = [
@@ -26,7 +26,7 @@ export default function Footer() {
     <div class="bg-white flex flex-col md:flex-row w-full max-w-screen-lg gap-8 md:gap-16 px-8 py-8 text-sm">
       <div class="flex-1">
         <div class="flex items-center gap-1">
-        <IconBrandTailwind class="w-6 h-6" />
+          <IconBrandTailwind class="w-6 h-6" />
           <div class="font-bold text-2xl">
             Fresh
           </div>
@@ -34,6 +34,12 @@ export default function Footer() {
         <div class="text-gray-500">
           Full Stack Framework
         </div>
+        <a href="https://wakatime.com/badge/user/45f0ba86-46c8-41e2-8b47-b13184fb2b11/project/9335871f-f383-4abe-acf3-65e6092ebdd3">
+          <img
+            src="https://wakatime.com/badge/user/45f0ba86-46c8-41e2-8b47-b13184fb2b11/project/9335871f-f383-4abe-acf3-65e6092ebdd3.svg"
+            alt="wakatime"
+          />
+        </a>
       </div>
 
       {menus.map((item) => (
@@ -56,12 +62,11 @@ export default function Footer() {
 
       <div class="text-gray-500 space-y-2">
         <div class="text-xs">
-          Copyright © 2020 DenoLand<br />
+          Copyright © 2024 barab<br />
           All right reserved.
         </div>
-
         <a
-          href="https://github.com/denoland/fresh"
+          href="https://github.com/Baraban511"
           class="inline-block hover:text-black"
           aria-label="GitHub"
         >

@@ -1,5 +1,5 @@
-import { AppProps, PageProps } from "$fresh/server.ts";
-import Header from "../components/header.tsx"
+import { PageProps } from "$fresh/server.ts";
+import Header from "../components/header.tsx";
 import Footer from "../components/footer.tsx";
 
 export default function App({ Component, url }: PageProps) {
