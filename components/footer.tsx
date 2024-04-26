@@ -1,6 +1,13 @@
 import BrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/brand-github.tsx";
-import IconBrandTailwind from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-tailwind.tsx";
-
+import IconBrandDiscord from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-discord.tsx";
+import IconMail from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/mail.tsx";
+import IconBrandSteam from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-steam.tsx";
+import IconBrandXbox from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-xbox.tsx";
+//Xbox buttons
+import IconXboxA from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/xbox-a.tsx";
+import IconXboxB from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/xbox-b.tsx";
+import IconXboxX from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/xbox-x.tsx";
+import IconXboxY from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/xbox-y.tsx";
 export default function Footer() {
   const menus = [
     {
@@ -26,13 +33,14 @@ export default function Footer() {
     <div class="bg-white flex flex-col md:flex-row w-full max-w-screen-lg gap-8 md:gap-16 px-8 py-8 text-sm">
       <div class="flex-1">
         <div class="flex items-center gap-1">
-          <IconBrandTailwind class="w-6 h-6" />
-          <div class="font-bold text-2xl">
-            Fresh
-          </div>
+          <img
+            src="./barab_logo_simple.png"
+            class=" h-6"
+            alt="the barab logo"
+          />
         </div>
-        <div class="text-gray-500">
-          Full Stack Framework
+        <div class="text-gray-500 mb-1">
+          Learning developper
         </div>
         <a href="https://wakatime.com/badge/user/45f0ba86-46c8-41e2-8b47-b13184fb2b11/project/9335871f-f383-4abe-acf3-65e6092ebdd3">
           <img
@@ -73,6 +81,9 @@ export default function Footer() {
           <BrandGithub aria-hidden="true" />
         </a>
       </div>
+      <div class="text-gray-500 space-y-2">
+        <IconXboxA class="hover:text-gray-700"/><IconXboxB class="hover:text-gray-700"/><IconXboxX class="hover:text-gray-700"/><IconXboxY class="hover:text-gray-700"/>
+    </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Footer from "../components/footer.tsx";
 
 export default function App({ Component, url }: PageProps) {
   return (
-    <html>
+    <html lang="en">
       <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/styles.css" />

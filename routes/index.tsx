@@ -5,6 +5,15 @@ export default function Home() {
     <>
       <div class="px-4 py-8 mx-auto bg-[#7dc5a9]">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
+          <br />
+          <div class="flex items-center">
+            <img
+              src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png"
+              alt="Waving Hand"
+              class="w-16 h-16"
+            />
+            <h1 class="text-4xl font-bold ml-4">Welcome on my website</h1>
+          </div>
           <img
             class="my-6"
             src="/barab_logo_v.png"
@@ -12,11 +21,8 @@ export default function Home() {
             height="128"
             alt="the barab logo"
           />
-          <h1 class="text-4xl font-bold">Welcome on my website</h1>
-          <p class="my-4">
-            Sous-titre
-            <code class="mx-2">./routes/index.tsx</code> file, and refresh.
-          </p>
+
+          <br />
         </div>
       </div>
       <Projects />

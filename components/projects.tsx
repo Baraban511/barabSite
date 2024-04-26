@@ -1,5 +1,5 @@
 import IconChevronRight from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/chevron-right.tsx";
-import IconBrandDatabricks from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-databricks.tsx";
+import IconDatabase from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/database.tsx";
 import IconCalendarCode from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/calendar-code.tsx";
 import LemonIcon from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/lemon-2.tsx";
 import IconBrandReact from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-react.tsx";
@@ -16,19 +16,20 @@ import IconBrandVscode from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/bran
 import IconBrandTypescript from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-typescript.tsx";
 import IconBrandDebian from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-debian.tsx";
 import IconBrandDeno from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-deno.tsx";
+import IconBrandTabler from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-tabler.tsx";
 
 export default function Projects() {
   const language = navigator.language;
   const featureItems = [
     {
-      icon: IconBrandDatabricks,
+      icon: IconDatabase,
       title: "CO internship",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam",
       build: [
         IconBrandReact,
-        IconBrandVercel,
         IconBrandTailwind,
+        IconBrandVercel,
         IconBrandGithubCopilot,
       ],
       link: "https://barab.me",
@@ -39,10 +40,10 @@ export default function Projects() {
       description:
         "Nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, ",
       build: [
-        IconBrandNodejs,
-        IconBrandBulma,
-        IconBrandJavascript,
         IconBrandHtml5,
+        IconBrandJavascript,
+        IconBrandBulma,
+        IconBrandNodejs,
         IconBrandNpm,
         IconBrandDebian,
         IconBrandVscode,
@@ -55,12 +56,13 @@ export default function Projects() {
       description: "Eget aliquam nisl nisl sit amet lorem.",
       build: [
         LemonIcon,
-        IconBrandDeno,
         IconBrandTailwind,
+        IconBrandTabler,
         IconBrandTypescript,
-        IconBrandSpotify,
+        IconBrandDeno,
         IconBrandGithubCopilot,
         IconBrandVscode,
+        IconBrandSpotify,
       ],
     },
   ];
@@ -70,7 +72,7 @@ export default function Projects() {
         return (
           <div class="flex-1 space-y-2">
             <div class="flex items-center space-x-4">
-              <div class="bg-[#4F86C6] inline-block p-3 rounded-xl text-white">
+              <div class="bg-[#000028] inline-block p-3 rounded-xl text-white">
                 <item.icon class="w-10 h-10" aria-hidden="true" />
               </div>
               <h2 class="text-2xl font-bold">{item.title}</h2>
@@ -92,7 +94,7 @@ export default function Projects() {
             {item.link &&
               (
                 <a class="block" href={item.link}>
-                  <p class="text-[#4FB0C6] cursor-pointer hover:underline inline-flex items-center group">
+                  <p class="text-[#4F86C6] cursor-pointer hover:underline inline-flex items-center group">
                     See
                     <IconChevronRight
                       class="inline-block w-5 h-5 transition group-hover:translate-x-0.5"
