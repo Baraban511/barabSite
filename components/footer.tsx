@@ -40,7 +40,7 @@ export default function Footer() {
           />
         </div>
         <div class="text-gray-500 mb-1">
-          Learning developper
+          Learning developer
         </div>
         <a href="https://wakatime.com/badge/user/45f0ba86-46c8-41e2-8b47-b13184fb2b11/project/9335871f-f383-4abe-acf3-65e6092ebdd3">
           <img
