@@ -70,9 +70,9 @@ export default function Projects() {
     <div class="flex flex-col md:flex-row gap-8 bg-white p-8">
       {featureItems.map((item) => {
         return (
-          <div class="flex-1 space-y-2">
+          <div class=" flex-1 space-y-2 hover:shadow-md hover:shadow-[#0D0D0D] p-3 transition ease-in-out duration-300 rounded-md">
             <div class="flex items-center space-x-4">
-              <div class="bg-[#000028] inline-block p-3 rounded-xl text-white">
+              <div class="bg-[#000028] inline-block p-3 rounded-full text-white">
                 <item.icon class="w-10 h-10" aria-hidden="true" />
               </div>
               <h2 class="text-2xl font-bold">{item.title}</h2>
@@ -80,21 +80,20 @@ export default function Projects() {
             <p class="text-xl">
               {item.description}
             </p>
-            {item.build ? <h3 class="text-lg font-bold">Made using</h3> : null}
+            {item.build ? <h3 class="text-lg font-bol">Made using</h3> : null}
             {item.build && (
               <div style={{ display: "flex", flexWrap: "wrap" }}>
                 {item.build.map((Icon, index) => (
-                  <div key={index} style={{ margin: "10px" }}>
+                  <div key={index} style={{ margin: "10px"}}>
                     <Icon />
                   </div>
                 ))}
               </div>
             )}
-
             {item.link &&
               (
                 <a class="block" href={item.link}>
-                  <p class="text-[#4F86C6] cursor-pointer hover:underline inline-flex items-center group">
+                  <p class="text-[#39594A] cursor-pointer hover:underline inline-flex items-center group">
                     See
                     <IconChevronRight
                       class="inline-block w-5 h-5 transition group-hover:translate-x-0.5"

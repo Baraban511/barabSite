@@ -30,7 +30,7 @@ export default function Footer() {
   ];
 
   return (
-    <div class="bg-white flex flex-col md:flex-row w-full max-w-screen-lg gap-8 md:gap-16 px-8 py-8 text-sm">
+    <div class="bg-white flex flex-col md:flex-row w-full max-w-screen gap-8 md:gap-16 px-8 text-sm">
       <div class="flex-1">
         <div class="flex items-center gap-1">
           <img
@@ -82,8 +82,11 @@ export default function Footer() {
         </a>
       </div>
       <div class="text-gray-500 space-y-2">
-        <IconXboxA class="hover:text-gray-700"/><IconXboxB class="hover:text-gray-700"/><IconXboxX class="hover:text-gray-700"/><IconXboxY class="hover:text-gray-700"/>
-    </div>
+        <IconXboxA class="hover:text-gray-700" />
+        <IconXboxB class="hover:text-gray-700" />
+        <IconXboxX class="hover:text-gray-700" />
+        <IconXboxY class="hover:text-gray-700" />
+      </div>
     </div>
   );
 }
