@@ -48,6 +48,15 @@ export default function Footer() {
             alt="wakatime"
           />
         </a>
+
+        <img
+          width="160"
+          height="32"
+          src="https://fresh.deno.dev/fresh-badge.svg"
+          alt="Made with Fresh"
+          class="mt-2"
+        >
+        </img>
       </div>
 
       {menus.map((item) => (
