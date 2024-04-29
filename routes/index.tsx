@@ -3,7 +3,7 @@ import Projects from "../components/projects.tsx";
 export default function Home() {
   return (
     <>
-      <div class="px-4 py-8 mx-auto bg-[#7dc5a9]">
+      <div class="px-4 py-8 mx-auto bg-[#008080]">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <br />
           <div class="flex items-center">
