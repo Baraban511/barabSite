@@ -3,7 +3,7 @@ import IconCodeOff from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/code-off
 export default function Hero() {
   return (
     <div
-      class="bg-[#008080] w-full flex px-8 py-10 min-h-[24em] justify-center items-center flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-xl text-[#fbffee]">
+      class="bg-[#008080] w-full flex px-8 py-10 min-h-[24em] justify-center items-center flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-xl">
       <div class="space-y-4 text-center">
         <h1 class="text-4xl inline-block font-bold">In development</h1>
         <p class="text-xl max-w-lg">

@@ -85,7 +85,7 @@ export default function Projects() {
               <div style={{ display: "flex", flexWrap: "wrap" }}>
                 {item.build.map((Icon, index) => (
                   <div key={index} style={{ margin: "10px"}}>
-                    <Icon />
+                    <Icon class="hover:text-[#008080]"/>
                   </div>
                 ))}
               </div>
@@ -93,7 +93,7 @@ export default function Projects() {
             {item.link &&
               (
                 <a class="block" href={item.link}>
-                  <p class="text-[#39594A] cursor-pointer hover:underline inline-flex items-center group">
+                  <p class="text-gray-500 cursor-pointer hover:text-[#008080] inline-flex items-center group">
                     See
                     <IconChevronRight
                       class="inline-block w-5 h-5 transition group-hover:translate-x-0.5"

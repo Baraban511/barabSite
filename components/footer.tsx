@@ -39,7 +39,7 @@ export default function Footer() {
             alt="the barab logo"
           />
         </div>
-        <div class="text-gray-500 mb-1">
+        <div class="text-gray-500 mb-2">
           Learning developer
         </div>
         <a href="https://wakatime.com/badge/user/45f0ba86-46c8-41e2-8b47-b13184fb2b11/project/9335871f-f383-4abe-acf3-65e6092ebdd3">
@@ -57,7 +57,7 @@ export default function Footer() {
             {item.children.map((child) => (
               <li class="mt-2" key={child.name}>
                 <a
-                  class="text-gray-500 hover:text-gray-700"
+                  class="text-gray-500 hover:text-[#008080]"
                   href={child.href}
                 >
                   {child.name}
@@ -75,17 +75,17 @@ export default function Footer() {
         </div>
         <a
           href="https://github.com/Baraban511"
-          class="inline-block hover:text-black"
+          class="inline-block hover:text-[#008080]"
           aria-label="GitHub"
         >
           <BrandGithub aria-hidden="true" />
         </a>
       </div>
       <div class="text-gray-500 space-y-2">
-        <IconXboxA class="hover:text-gray-700" />
-        <IconXboxB class="hover:text-gray-700" />
-        <IconXboxX class="hover:text-gray-700" />
-        <IconXboxY class="hover:text-gray-700" />
+        <IconXboxA class="hover:text-[#008080]" />
+        <IconXboxB class="hover:text-[#008080]" />
+        <IconXboxX class="hover:text-[#008080]" />
+        <IconXboxY class="hover:text-[#008080]" />
       </div>
     </div>
   );
