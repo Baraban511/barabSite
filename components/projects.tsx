@@ -67,12 +67,12 @@ export default function Projects() {
     },
   ];
   return (
-    <div class="flex flex-col md:flex-row gap-8 bg-white p-8">
+    <div class="flex flex-col md:flex-row gap-8 bg-[#fbffee] p-8">
       {featureItems.map((item) => {
         return (
-          <div class=" flex-1 space-y-2 hover:shadow-md hover:shadow-[#0D0D0D] p-3 transition ease-in-out duration-300 rounded-md">
+          <div class=" flex-1 space-y-2 hover:shadow-md hover:shadow-[#008080] p-3 transition ease-in-out duration-300 rounded-md">
             <div class="flex items-center space-x-4">
-              <div class="bg-[#000028] inline-block p-3 rounded-full text-white">
+              <div class="bg-[#008080] inline-block p-3 rounded-full text-white">
                 <item.icon class="w-10 h-10" aria-hidden="true" />
               </div>
               <h2 class="text-2xl font-bold">{item.title}</h2>

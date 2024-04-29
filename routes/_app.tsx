@@ -11,7 +11,7 @@ export default function App({ Component, url }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>barab</title>
       </head>
-      <body>
+      <body class="bg-[#fbffee]">
         <Header active={url.pathname} />
         <Component />
         <Footer />

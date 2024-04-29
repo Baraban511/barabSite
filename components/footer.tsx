@@ -30,7 +30,7 @@ export default function Footer() {
   ];
 
   return (
-    <div class="bg-white flex flex-col md:flex-row w-full max-w-screen gap-8 md:gap-16 px-8 text-sm">
+    <div class="bg-[#fbffee] flex flex-col md:flex-row w-full max-w-screen gap-8 md:gap-16 px-8 text-sm pt-8">
       <div class="flex-1">
         <div class="flex items-center gap-1">
           <img
