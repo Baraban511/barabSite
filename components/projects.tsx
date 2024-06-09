@@ -34,7 +34,7 @@ export default function Projects() {
         IconBrandVercel,
         IconBrandGithubCopilot,
       ],
-      link: "https://barab.me",
+      link: "https://data.barab.live",
     },
     {
       icon: IconCalendarCode,
@@ -62,7 +62,7 @@ export default function Projects() {
         IconBrandTabler,
         IconBrandDeno,
         IconBrandGithubCopilot,
-        IconBrandSpotify,
+        IconBrandCloudflare,
       ],
     },
   ];
@@ -83,7 +83,9 @@ export default function Projects() {
                 dangerouslySetInnerHTML={{ __html: item.description }}
               >
               </p>
-              {item.build ? <h3 class="text-lg font-semibold">Made using</h3> : null}
+              {item.build
+                ? <h3 class="text-lg font-semibold">Made using</h3>
+                : null}
               {item.build && (
                 <div class="flex flex-wrap">
                   {item.build.map((Icon, index) => (
@@ -110,7 +112,9 @@ export default function Projects() {
         })}
       </div>
       <div class="text-center w-full">
-        <p class="text-2xl font-bold px-2">I've also used or I'm still using:</p>
+        <p class="text-2xl font-bold px-2">
+          I've also used or I'm still using:
+        </p>
         <div class="flex flex-wrap items-center justify-center m-4 gap-4">
           <IconBrandHtml5 class="hover:text-[#008080]" />
           <IconBrandJavascript class="hover:text-[#008080]" />
@@ -119,7 +123,7 @@ export default function Projects() {
           <IconBrandNpm class="hover:text-[#008080]" />
           <IconBrandDebian class="hover:text-[#008080]" />
           <IconBrandVscode class="hover:text-[#008080]" />
-          <IconBrandCloudflare class="hover:text-[#008080]" />
+          <IconBrandSpotify class="hover:text-[#008080]" />
         </div>
       </div>
     </>
