@@ -12,7 +12,7 @@ export default function Home() {
               alt="Waving Hand"
               class="w-16 h-16"
             />
-            <h1 class="text-4xl font-bold ml-4">Welcome on my website</h1>
+            <h1 class="text-4xl font-bold ml-4 select-none">Welcome on my website</h1>
           </div>
           <img
             class="my-6"
