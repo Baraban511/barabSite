@@ -10,7 +10,7 @@ export default function Hero() {
           This page is in developpement and will be available soon.
         </p>
       </div>
-      <IconCodeOff class="w-20 h-20" />
+      <IconCodeOff class="size-20" />
 
       <div class="flex flex-col text-center">
         <a
