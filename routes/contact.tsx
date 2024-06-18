@@ -5,12 +5,12 @@ import {
 	Events,
 	GatewayIntentBits,
 } from "npm:discord.js";
-
+const token = Deno.env.get("DISCORD_TOKEN");
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.once(Events.ClientReady, (readyClient) => {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
-client.login(Deno.env.get("DISCORD_TOKEN"));
+client.login(token);
 const user = await client.users.fetch("768517258262741024");
 
 export const handler: Handlers = {
