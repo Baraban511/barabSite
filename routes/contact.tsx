@@ -10,11 +10,11 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.once(Events.ClientReady, (readyClient) => {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
-client.login(token);
-const user = await client.users.fetch("768517258262741024");
 
 export const handler: Handlers = {
 	async POST(req, ctx) {
+		client.login(token);
+		const user = await client.users.fetch("768517258262741024");
 		const messageEmbed = new EmbedBuilder()
 			.setColor("#008080")
 			.setTitle("Contact request on barab.me")
