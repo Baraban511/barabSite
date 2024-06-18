@@ -1,4 +1,3 @@
-//import Hero from "../components/hero.tsx";
 import { Handlers } from "$fresh/server.ts";
 // import IconMail from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/mail.tsx";
 // import IconSend from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/send.tsx";
@@ -16,7 +15,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.once(Events.ClientReady, (readyClient) => {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
-client.login(env["DISCORD_TOKEN"]);
+client.login(env["DISCORD_TOKEN"] ? env["DISCORD_TOKEN"] : Deno.env.DISCORD_TOKEN );
 const user = await client.users.fetch("768517258262741024");
 
 export const handler: Handlers = {
