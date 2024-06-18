@@ -4,32 +4,41 @@ import { SMTPClient } from "https://deno.land/x/denomailer@1.6.0/mod.ts";
 import IconMail from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/mail.tsx";
 import IconSend from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/send.tsx";
 import IconMessage from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/message.tsx";
+import { load } from "https://deno.land/std@0.224.0/dotenv/mod.ts";
+
+const env = await load();
 const client = new SMTPClient({
   connection: {
     hostname: "smtp.eu.mailgun.org",
-    port: 465,
-    tls: true,
-    auth: {
-      username: "postmaster@mail.barab.me",
-      password: "611c347b648fc763b0ef5d50c2e3392e-51356527-afd586fd",
-    },
-  },
-});
+    port: 2525,
+    tls: false,
 
+    auth: {
+      username: env["MAIL_USERNAME"],
+      password: env["MAIL_PASSWORD"],
+    },
+  // },
+  // debug: {
+  //   log: true,
+  //   allowUnsecure: true,
+  //   encodeLB: false,
+  //   noStartTLS: true,
+  // },
+});
 export const handler: Handlers = {
-  async POST(req, ctx) {
+  async POST(req) {
     const form = await req.formData();
     console.log(form);
-    const email = form.get("emai")?.toString();
+    const email = form.get("email")?.toString();
     const message = form.get("message")?.toString();
     // Add email to list.
 
     await client.send({
-      from: "postmaster@mail.barab.me",
-      to: "baraban511@outlook.fr",
-      subject: "example",
-      content: "...",
-      html: "<p>...</p>",
+      from: env["MAIL_USERNAME"],
+      to: env["MAIL_TO"],
+      replyTo: email,
+      subject: "Contact - barabSite",
+      content: message,
     });
 
     await client.close();
@@ -57,8 +66,19 @@ export default function Contact() {
           placeholder="Email"
         >
         </input>
-        <textarea class="rounded-md focus:placeholder-[#008080]" placeholder="Message" rows={5}></textarea>
-        <button type="submit" name="message" class="bg-[#fbffee] cursor-pointer p-8 rounded-md text-gray-500 hover:text-gray-700 hover:font-bold py-1 border-gray-500">Submit</button>
+        <textarea
+          class="rounded-md focus:placeholder-[#008080]"
+          placeholder="Message"
+          name="message"
+          rows={5}
+        >
+        </textarea>
+        <button
+          type="submit"
+          class="bg-[#fbffee] cursor-pointer p-8 rounded-md text-gray-500 hover:text-gray-700 hover:font-bold py-1 border-gray-500"
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
