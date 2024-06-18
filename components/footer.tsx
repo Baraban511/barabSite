@@ -15,6 +15,7 @@ export default function Footer() {
         { name: "EDC", href: "https://edc.barab.live" },
         { name: "EDC - old", href: "https://barab.ovh" },
         { name: "CO2 internship", href: "https://data.barab.live" },
+        { name: "Sponsor", href: "https://github.com/sponsors/Baraban511" },
         { name: "Mail", href: "mailto:contact@barab.live?subject=Contact" },
       ],
     };

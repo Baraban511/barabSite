@@ -7,6 +7,8 @@ import * as $_app from "./routes/_app.tsx";
 import * as $about from "./routes/about.tsx";
 import * as $contact from "./routes/contact.tsx";
 import * as $index from "./routes/index.tsx";
+import * as $mail_mail_ from "./routes/mail/[mail].tsx";
+import * as $thanks_for_contact from "./routes/thanks-for-contact.tsx";
 
 import { type Manifest } from "$fresh/server.ts";
 
@@ -17,6 +19,8 @@ const manifest = {
     "./routes/about.tsx": $about,
     "./routes/contact.tsx": $contact,
     "./routes/index.tsx": $index,
+    "./routes/mail/[mail].tsx": $mail_mail_,
+    "./routes/thanks-for-contact.tsx": $thanks_for_contact,
   },
   islands: {},
   baseUrl: import.meta.url,
