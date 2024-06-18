@@ -1,21 +1,16 @@
 import { Handlers } from "$fresh/server.ts";
-// import IconMail from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/mail.tsx";
-// import IconSend from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/send.tsx";
-// import IconMessage from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/message.tsx";
-import { load } from "https://deno.land/std@0.224.0/dotenv/mod.ts";
 import {
 	Client,
 	EmbedBuilder,
 	Events,
 	GatewayIntentBits,
 } from "npm:discord.js";
-const env = await load();
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.once(Events.ClientReady, (readyClient) => {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
-client.login(env["DISCORD_TOKEN"] ? env["DISCORD_TOKEN"] : Deno.env.DISCORD_TOKEN );
+client.login(Deno.env.get("DISCORD_TOKEN"));
 const user = await client.users.fetch("768517258262741024");
 
 export const handler: Handlers = {
@@ -39,15 +34,15 @@ export const handler: Handlers = {
 			messageEmbed.addFields(
 				{
 					name: "Mail",
-					value: `${mail} \n \n [**Répondre**](https://barab.me/mail/${mail})`,
+					value:
+						`${mail} \n \n [**Répondre**](https://barab.me/mail/${mail}) \n`,
 				},
-				{ name: "\u200B", value: "\u200B" },
 			);
 		}
 		const message = form.get("message")?.toString();
 		if (message) {
 			messageEmbed.addFields(
-				{ name: "Message", value: message },
+				{ name: "Message", value: `${message} \n` },
 				{ name: "\u200B", value: "\u200B" },
 			);
 		}
