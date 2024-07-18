@@ -31,7 +31,7 @@ export default function Projects() {
       build: [
         IconBrandReact,
         IconBrandTailwind,
-        IconBrandVercel,
+        IconBrandCloudflare,
         IconBrandGithubCopilot,
       ],
       link: "https://data.barab.live",
@@ -47,6 +47,7 @@ export default function Projects() {
         IconBrandVite,
         IconBrandTabler,
         IconBrandVercel,
+        IconBrandCloudflare,
       ],
       link: "https://edc.barab.live",
     },

@@ -1,5 +1,5 @@
 import { type Config } from "tailwindcss";
-import forms from 'npm:@tailwindcss/forms';
+import forms from '@tailwindcss/forms';
 export default {
   content: [
     "{routes,islands,components}/**.{ts,tsx}",
