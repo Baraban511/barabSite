@@ -68,11 +68,11 @@ export default function Footer() {
           All right reserved.
         </div>
 
-        <div class='flex gap-3 items-center justify-center'><a
+        <div class='flex items-center justify-center'><a
           href="https://github.com/Baraban511"
           class="inline-block hover:text-[#008080]"
           aria-label="GitHub"
-        ><BrandGithub aria-hidden="true" /></a><iframe src="https://github.com/sponsors/Baraban511/button" title="Sponsor Baraban511" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe></div>
+        ><BrandGithub aria-hidden="true" /></a><iframe src="https://github.com/sponsors/Baraban511/button" title="Sponsor barab" height="32" width="114" class="ml-3 rounded-md"></iframe></div>
 
       </div>
       <div class="text-gray-500 space-y-2">
