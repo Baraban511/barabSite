@@ -68,7 +68,7 @@ export default function Footer() {
           All right reserved.
         </div>
 
-        <div class='flex items-center justify-center'><a
+        <div class='flex items-center justify-start'><a
           href="https://github.com/Baraban511"
           class="inline-block hover:text-[#008080]"
           aria-label="GitHub"

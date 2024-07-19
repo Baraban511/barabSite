@@ -16,7 +16,7 @@ export default function App({ Component, url }: PageProps) {
         <meta name="title" content="barab. - Developer" />
         <meta
           name="description"
-          content="I'm barab, an in learning developer."
+          content="I'm barab, an in learning developer. This website is my portfolio."
         />
         <link rel="canonical" href="https://barab.me/" />
       </head>
