@@ -16,10 +16,12 @@ export default function VR() {
           position="6 0 -10" rotation="0 -90 0" width="4" height="4" transparent="true">
         </a-plane>
         <a-plane
-          src=""
-          position="-6 0 -10" rotation="0 90 0" width="4" height="4" text="value: Hello, A-Frame!; color: #BBB" >
+          src="/aorus_logo.png"
+          position="-6 0 -10" rotation="0 90 0" width="4" height="4" transparent="true">
         </a-plane>
-        <a-entity position="4 5 -10" rotation="0 0 0" scale="10 10 10" text="value: Stuff I like; "></a-entity>
+        <a-entity position="3.9 5 -10" rotation="0 0 0" scale="10 10 10" text="value: Stuff I like; "></a-entity>
+        <a-entity position="3.6 5 -30" rotation="0 0 0" scale="10 10 10" text="value: In expansion !; "></a-entity>
+        <a-entity gltf-model="/house.gltf" position="0 0 -20"></a-entity>
       </a-scene>
     </>
   );
