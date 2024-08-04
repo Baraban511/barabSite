@@ -10,7 +10,7 @@ export default function Header({ active }: Props) {
   ];
 
   return (
-    <div class="bg-[#fbffee] w-full py-6 px-8 flex flex-row justify-between flex-wrap gap-6">
+    <div class="bg-[#fbffee] w-full py-6 px-8 flex flex-row justify-between flex-wrap gap-6 relative top-0 z-50">
       <div class="shrink-0 h-6">
         <a href="/">
           <img src="./barab_logo_simple.png" class="shrink-0 h-6" alt="barab logo"/>
